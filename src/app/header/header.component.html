@@ -1,7 +1,7 @@
 <header>
    <section>
      <img src="images/logo.png" alt="logo">
-    <h1 class="parkinsans-light">All About Me :)</h1>
+     <h1 class="parkinsans-light">{{translations()['welcome']}}</h1>
    </section>
  <div class="language-menu-div">
           <button class="hamburger"  aria-label="Toggle menu" (click)="toggleMenu()" [class.active]="menuIsOpen()">
@@ -11,8 +11,8 @@
 </button>
 
 <div class="language">
-    <img src="images/georgia-flag.png" alt="geo-flag">
-    <img src="images/UK-flag.jpg" alt="geo-flag">
+   <p class="first-lang">{{chosenLanguage()==='ENG'? 'ENG': 'ქარ'}}</p>
+    <p class="second-lang" (click)="languageService.toggleLanguage()">{{chosenLanguage()==='GEO'? 'ENG': 'ქარ'}}</p>
 </div>
  </div>
  

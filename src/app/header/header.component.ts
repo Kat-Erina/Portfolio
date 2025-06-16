@@ -1,4 +1,5 @@
-import { Component, signal } from '@angular/core';
+import { Component, inject, OnInit, signal } from '@angular/core';
+import { LanguageService } from '../../core/language.service';
 
 @Component({
   selector: 'app-header',
@@ -8,9 +9,15 @@ import { Component, signal } from '@angular/core';
 })
 export class HeaderComponent {
   menuIsOpen=signal(false)
+  
+  languageService=inject(LanguageService);
+  chosenLanguage=this.languageService.chosenLanguage;
+  translations=this.languageService.translations;
 
   toggleMenu(){
     this.menuIsOpen.set(!this.menuIsOpen())
-    console.log(this.menuIsOpen())
   }
+
+
+
 }

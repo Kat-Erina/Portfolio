@@ -66,15 +66,36 @@ section{
     .language{
     display: flex;
     flex-direction: column;
-    border: 1px solid black;
-    gap:10px;
-    img{
-        padding: 4px;
+    position: relative;
+    // border: 1px solid black;
+    gap:5px;
+    .first-lang, .second-lang{
+        padding: 2px;
         background-color: yellow;
-        width:25px;
-        min-height: 22px;
+       font-size: 11px;
+       text-align: center;
+       border: 0.5px solid grey;
+       border-radius: 4px;
+       width: 30px;
+    }
+    .second-lang{
+      display: none;
+    }
+
+}
+    .language:hover .second-lang{
+display: block;
     }
 }
+
 }
 
+@media screen and (min-width:768px) {
+  header{
+.hamburger{
+    display: none;
+  }
+  }
+  
+  
 }
