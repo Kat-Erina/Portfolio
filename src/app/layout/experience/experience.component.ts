@@ -14,9 +14,7 @@ export class ExperienceComponent {
     ngAfterViewInit(): void {
     const observer = new IntersectionObserver(
       ([entry]) => {
-        console.log(entry)
         if (entry.isIntersecting) {
-          console.log('shemovida')
           this.experienceRoot.nativeElement.classList.add('visible');
           observer.unobserve(this.experienceRoot.nativeElement); 
         } else{
