@@ -1,6 +1,6 @@
 import { Injectable, signal } from "@angular/core";
-import ENG from '../assets/languages/en.json';
-import GEO from '../assets/languages/ka.json';
+import ENG from '../../../assets/languages/en.json';
+import GEO from '../../../assets/languages/ka.json';
 
 
 @Injectable({'providedIn':'root'})

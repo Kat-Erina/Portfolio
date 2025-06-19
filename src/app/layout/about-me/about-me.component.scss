@@ -1,0 +1,50 @@
+article{
+    width: 100%;
+    margin-top: 20px;
+    position: relative;
+ display: flex;
+flex-direction: column; 
+h2{
+    margin-bottom: -30px;
+    z-index: 1;
+}
+
+ .about-me {
+  width: 100%;
+  background-color:  rgb(82, 151, 80);
+  clip-path: polygon(0% 10%, 100% 0%, 100% 100%, 0% 90%);
+padding-bottom: 50px;
+  padding: 40px 8px;
+  text-align: right;
+   img{
+    width: 150px;
+    height: 150px;
+    margin-top: 35px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    float:left;
+    border-radius: 5px;
+}
+
+  .about-me-txt{
+     margin-bottom: 50px;
+     p{line-height: 1.3;
+    color: #222831
+}
+     .characteristics{
+        list-style: none;
+        text-align: center;
+        padding: 4px;
+        margin-bottom: 10px;
+     }
+     .hobbies{
+        list-style: none;
+        text-align: center;
+        padding: 4px;
+        margin-bottom: 10px;
+     }
+  }
+ 
+
+}
+}
