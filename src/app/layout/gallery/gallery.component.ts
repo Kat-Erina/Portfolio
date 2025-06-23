@@ -25,4 +25,23 @@ ngAfterViewInit(): void {
   // observer.observe(this.galleryRoot.nativeElement)
 }
 
+ currentIndex = 0;
+getTransform(index: number): string {
+  const cardWidth = 500; 
+  const offset = (index - this.currentIndex) * cardWidth;
+  return `translateX(${offset}px)`;
+}
+
+  nextCard() {
+    if (this.currentIndex < 2) {  
+      this.currentIndex++;
+    }
+  }
+
+  prevCard() {
+    if (this.currentIndex > 0) {
+      this.currentIndex--;
+    }
+  }
+
 }

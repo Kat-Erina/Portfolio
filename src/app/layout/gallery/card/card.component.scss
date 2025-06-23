@@ -1,5 +1,10 @@
-.card{
-    width: 90%;
-    background-color: red;
-    height: 90%;
+.card-item{
+    aspect-ratio: 17 / 9;
+    background-color: yellow;
+    height: 100%;
+    background-image: url(./../../../../../public/images/task-project.png);
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+  
 }

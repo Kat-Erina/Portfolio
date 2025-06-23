@@ -4,11 +4,24 @@
 <p class="projects-qnt">6</p>
 <div class="gallery">
 
-      <button class="arrow left">&#10094;</button> 
- <div class="cards-wrapper">
-    <app-card ></app-card>
+      <button class="arrow left" (click)="prevCard()">&#10094;</button> 
+ <article class="cards-wrapper">
+  
+  
+   <div class="card" [style.transform]="getTransform(0)">
+     <app-card></app-card> 
+
   </div>
-        <button class="arrow right">&#10095;</button> 
+  <div class="card" [style.transform]="getTransform(1)" >
+     <app-card></app-card> 
+
+  </div>
+    <div class="card" [style.transform]="getTransform(2)" >
+     <app-card></app-card> 
+
+  </div>
+ </article>
+        <button class="arrow right" (click)="nextCard()">&#10095;</button> 
 
 </div>
 </div>
