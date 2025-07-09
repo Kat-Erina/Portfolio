@@ -5,12 +5,12 @@ import GEO from '../../../assets/languages/ka.json';
 
 @Injectable({'providedIn':'root'})
 export class LanguageService{
-private dictionaries: Record<'ENG' | 'GEO', Record<string, string>> = {
+private dictionaries: Record<'ENG' | 'GEO', Record<string, any>> = {
   ENG,
   GEO
 };
 chosenLanguage=signal('ENG')
- translations = signal<Record<string, string>>(ENG);
+translations = signal<Record<string, any>>(ENG);
 
 
   switchLanguage(lang: 'ENG' | 'GEO') {

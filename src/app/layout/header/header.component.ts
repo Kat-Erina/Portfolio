@@ -9,9 +9,6 @@ import { LanguageService } from '../../core/services/language.service';
 })
 export class HeaderComponent {
   menuIsOpen=signal(false)
-  
-
-
   languageService=inject(LanguageService);
   chosenLanguage=this.languageService.chosenLanguage;
   translations=this.languageService.translations;
@@ -22,10 +19,5 @@ export class HeaderComponent {
   }
 
  
-@HostListener('document:keydown.enter', ['$event'])
-handleEnter(event: KeyboardEvent) {
-  console.log('Enter key pressed:', event);
-}
-
 
 }

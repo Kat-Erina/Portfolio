@@ -1,10 +1,35 @@
-.card-item{
-    aspect-ratio: 17 / 9;
-    background-color: yellow;
-    height: 100%;
-    background-image: url(./../../../../../public/images/task-project.png);
-    background-position:center;
-    background-size:cover;
-    background-repeat:no-repeat;
-  
+.card-item {
+  aspect-ratio: 17 / 8;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+
+  .glass-div {
+    width: 25%;
+    height: 45%;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(3.1px);
+    -webkit-backdrop-filter: blur(5.1px);
+    border: 1px solid rgba(204, 171, 171, 0.5);
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    h5 {
+      font-size: 17px;
+    }
+    button {
+      text-align: left;
+      padding: 8px 5px;
+      border-radius: 10px;
+      border: none;
+      font-size: 11px;
+      width: 90px;
+    }
+  }
 }

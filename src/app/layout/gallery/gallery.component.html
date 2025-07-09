@@ -1,27 +1,19 @@
 
 <div #galleryRef class="gallery-main-div" id="gallery">
 <h2>checkout my projects</h2>
-<p class="projects-qnt">6</p>
+<p class="projects-qnt">{{length+1}}</p>
 <div class="gallery">
 
-      <button class="arrow left" (click)="prevCard()">&#10094;</button> 
+      <button [ngClass]="{'hidden': currentIndex()===0}" class="arrow left" (click)="prevCard()">&#10094;</button> 
  <article class="cards-wrapper">
-  
-  
-   <div class="card" [style.transform]="getTransform(0)">
-     <app-card></app-card> 
-
+  @for(item of translations()['gallery']; track $index){
+     <div class="card" [style.transform]="getTransform($index)">
+     <app-card [data]="item"></app-card> 
   </div>
-  <div class="card" [style.transform]="getTransform(1)" >
-     <app-card></app-card> 
-
-  </div>
-    <div class="card" [style.transform]="getTransform(2)" >
-     <app-card></app-card> 
-
-  </div>
+  }
  </article>
-        <button class="arrow right" (click)="nextCard()">&#10095;</button> 
+
+<button [ngClass]="{'hidden':currentIndex()===length}" class="arrow right" (click)="nextCard()">&#10095;</button> 
 
 </div>
 </div>

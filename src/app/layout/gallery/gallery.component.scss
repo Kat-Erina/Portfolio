@@ -15,8 +15,8 @@
         margin-right: 10px;
     }
     .gallery{
-        padding: 45px 5px;
-        height: 350px;
+        padding: 25px 5px;
+        height: 420px;
         clip-path: polygon(0% 0%, 100% 10%, 100% 95%, 0% 100%);
         background-color: rgb(65, 98, 160);
         position: relative;
@@ -42,6 +42,17 @@
   transition: transform 0.7s ease;
 }
 }
+
+.arrow{
+  padding: 3px 5px;
+  font-size: 16px;
+  transition: all 0.2s ease-in-out;
+
+}
+
+.arrow:hover{
+  transform: scale(1.1);
+}
     }
 
 
@@ -51,3 +62,9 @@
     opacity: 1;
     transform: translateY(0);
 }
+
+.hidden{
+  visibility: hidden;
+}
+
+///777px dan gasaketebelia 

@@ -1,4 +1,30 @@
 {
   "hello": "გამარჯობა",
-  "welcome": "მოგესალმებით ჩვენს ვებსაიტზე!"
+  "welcome": "მოგესალმებით ჩვენს ვებსაიტზე!",
+  "gallery":[
+    {
+      "id":0,
+    "name": "TBC Concept კლონი", 
+    "img":"images/tbc-project.png", 
+    "github": "https://github.com/Kat-Erina/TBC-concenpt-clone", 
+    "live":"https://tbc-clone-concept.netlify.app/", 
+    "description":"პროექტი შეიქმნა TBC ACADEMY-ის დავალების ფარგლებში. დავალებისას უნდა შეგვექმნა აღნიშნული საიტის https://tbcconcept.ge/ge/ კლონი. პროექტზე მუშაობისას გამოყენებულია VANILLA JS, CSS და BOOTSTRAP-ის ბიბლიოთეკა."
+  }, 
+    {
+       "id":1,
+    "name": "Real Estates Project", 
+    "img":"images/real-estate.png", 
+    "github": "https://github.com/Kat-Erina/real-estate-ng?tab=readme-ov-file", 
+    "live":"https://real-estates-app.netlify.app/", 
+    "description":"ამ აპლიკაციის საშუალებით შეგვიძლია უძრავი ქონების განცხადებების მენეჯმენტი.კერძოდ, გვაქვს საშუალება დავამატოთ ახალი უძრავი ქონება და ახალი აგენტი.აპლიკაცის აქვს ფილტრაციის ფუნქციაც. ფილტრაცია შეგვიძლია შემდეგი კრიტერიუმებით; ფასი, ფართობი, რეგიონი და საძინებლების რაოდენობა"
+  }, 
+   {
+     "id":2,
+    "name": "Tasks Management Project", 
+    "img":"images/tasks-project.png", 
+    "github": "https://github.com/Kat-Erina/tasks-project", 
+    "live":"https://manage-tsks.netlify.app/", 
+    "description":"აპლიკაცია დაქირავებული პირის დამატების, დავალებების შექმნისა და მონიტორინგის საშუალებას გვაძლევს. ასევე, ჩვენ შეგვიძ₾ია განვსაზღვროთ და საჭიროებისამებრ შევცვალოთ დავალების პრიორიტეტულობა და მისი მონიტორინგი განვახორციელოთ"
+  }
+  ]
 }

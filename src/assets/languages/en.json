@@ -1,4 +1,30 @@
 {
   "hello": "Hello",
-  "welcome": "Welcome to our website!"
+  "welcome": "Welcome to our website!",
+  "gallery":[
+    {
+      "id":0,
+    "name": "TBC Concept Clone", 
+    "img":"images/tbc-project.png", 
+    "github": "https://github.com/Kat-Erina/TBC-concenpt-clone", 
+    "live":"https://tbc-clone-concept.netlify.app/", 
+    "description":"This Project was created as an assignment for TBC Academy.Participants had to create the clone of this website https://tbcconcept.ge/ge/. It was created using vanilla JA, CSS and Bootstrap library"
+  }, 
+    {
+       "id":1,
+    "name": "Real Estates Project", 
+    "img":"images/real-estate.png", 
+    "github": "https://github.com/Kat-Erina/real-estate-ng?tab=readme-ov-file", 
+    "live":"https://real-estates-app.netlify.app/", 
+    "description":"This application allows to manage real estate listings. You can create a new listing, add a new agent. Also, you can filter and find your real estate buinding using region, price, area and bedroom quantity filters"
+  }, 
+   {
+     "id":2,
+    "name": "Tasks Management Project", 
+    "img":"images/tasks-project.png", 
+    "github": "https://github.com/Kat-Erina/tasks-project", 
+    "live":"https://manage-tsks.netlify.app/", 
+    "description":"This application allows to manage tasks. You can create a new task and a new employee. You can also define priority and a category for the task. You can assign task to the dessirable employee and monitor its progress."
+  }
+  ]
 }
