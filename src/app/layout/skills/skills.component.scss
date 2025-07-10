@@ -1,5 +1,5 @@
 .skills-main-container{
-      background-color: rgb(247, 0, 255);
+    //   background-color: rgb(247, 0, 255);
     transition: all 0.6s ease-out;
     margin-bottom: 20px;
     margin-top: 20px;
@@ -38,7 +38,7 @@ li svg{
      
 }
 li:hover{
-    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
 transform: scale(1.2);
 }
     }

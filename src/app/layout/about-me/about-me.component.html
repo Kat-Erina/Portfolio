@@ -3,17 +3,17 @@
     <div class="about-me">
         <img src="images/me.png">
         <section class="about-me-txt">
-            <p >{{translations()['about-me']['introduction']['intro']}}<b>{{translations()['about-me']['introduction']['occupation']}}</b></p>
-            <br>
+            <p style="font-size: 17px; margin-bottom: 5px;">{{translations()['about-me']['introduction']['intro']}}<b style="font-size: 19px;">{{translations()['about-me']['introduction']['occupation']}}</b></p>
+            
             <ul class="characteristics">
                 @for(interest of translations()['about-me']['mind-description'] ; track interest){
-                <li>
-                    <i [style.color]="interest.color" [class]="interest.icon"></i> {{interest.description}}
+                <li style="font-size: 15px;">
+                    <i style="font-size: 20px;" [style.color]="interest.color" [class]="interest.icon"></i> {{interest.description}}
                 </li>
                 }
             </ul>
 
-            <p>
+            <p style="font-size: 17px; text-align: center;">
                 {{ translations()['about-me']['free-time']}}
             </p>
             <ul class="hobbies">
@@ -22,12 +22,12 @@
                 }
 
             </ul>
-            <p>
+            <p style="font-size: 17px; text-align: center;">
 {{translations()['about-me']['goal']['main-goal']}}
-<span>{{translations()['about-me']['goal']['customer-satisfaction']}}</span>
-<span>{{translations()['about-me']['goal']['pleasure']}} </span>
+<span style="font-weight: bold;">{{translations()['about-me']['goal']['customer-satisfaction']}}</span>
+<span style="font-weight: bold;">{{translations()['about-me']['goal']['pleasure']}} </span>
 {{translations()['about-me']['goal']['more'] }}
-<a href="#gallery">{{translations()['about-me']['goal']['here']}}.</a>
+<a style="font-size: 20px;" href="#gallery">{{translations()['about-me']['goal']['here']}}.</a>
             </p>
         </section>
     </div>
