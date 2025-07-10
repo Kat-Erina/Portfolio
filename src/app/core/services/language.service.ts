@@ -13,20 +13,20 @@ chosenLanguage=signal('ENG')
 translations = signal<Record<string, any>>(ENG);
 
 
-  switchLanguage(lang: 'ENG' | 'GEO') {
-    this.translations.set(this.dictionaries[lang]);
-      }
+  // switchLanguage(lang: 'ENG' | 'GEO') {
+  //   this.translations.set(this.dictionaries[lang]);
+  //     }
 
  toggleLanguage(){
-    let chosenLang:'ENG'| 'GEO'=this.chosenLanguage()==='ENG'? 'GEO': 'ENG'
-       this.chosenLanguage.set(chosenLang);
+    let chosenLang:'ENG'| 'GEO'=this.chosenLanguage()==='ENG'? 'GEO': 'ENG';
+    this.chosenLanguage.set(chosenLang);
     localStorage.setItem('chosenLanguage', this.chosenLanguage())
      this.translations.set(this.dictionaries[chosenLang]);
   }
 
   constructor(){
 const storedLang = localStorage.getItem('chosenLanguage') as 'ENG' | 'GEO' | null;
-   if (storedLang && (storedLang === 'ENG' || storedLang === 'GEO')) {
+   if (storedLang) {
     this.chosenLanguage.set(storedLang);
       this.translations.set(this.dictionaries[storedLang]);
     }

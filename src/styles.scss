@@ -1,3 +1,7 @@
+@import url("//cdn.web-fonts.ge/fonts/alk-life/css/alk-life.min.css");
+@import url("//cdn.web-fonts.ge/fonts/arial-geo/css/arial-geo.min.css");
+
+
 *{
     padding: 0;
     margin: 0;
@@ -11,19 +15,24 @@ html{
 body{
     padding: 10px 5px;
     background-color: rgb(235, 213, 187);
+    //  font-family: 'Noto Sans', sans-serif;
+     font-family: "ALK Life", sans-serif;
+     font-family: "Arial GEO", sans-serif;
+
+    
 }
 
-.parkinsans-light {
-  font-family: "Parkinsans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 300;
-  font-style: normal;
-}
+// .parkinsans-light {
+//   font-family: "Parkinsans", sans-serif;
+//   font-optical-sizing: auto;
+//   font-weight: 300;
+//   font-style: normal;
+// }
 
-.parkinsans-bold {
-  font-family: "Parkinsans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 800;
-  font-style: normal;
-}
+// .parkinsans-bold {
+//   font-family: "Parkinsans", sans-serif;
+//   font-optical-sizing: auto;
+//   font-weight: 800;
+//   font-style: normal;
+// }
 

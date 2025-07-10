@@ -1,6 +1,62 @@
 {
-  "hello": "გამარჯობა",
-  "welcome": "მოგესალმებით ჩვენს ვებსაიტზე!",
+  "welcome": "მოგესალმებით :)",
+   "about-me": {
+    "introduction":{
+      "intro":"👋 გამარჯობა!  მე კატო ვარ —",
+      "occupation":"Angular დეველოპერი"
+    } ,
+    "mind-description": [
+      {
+        "icon": "fa-solid fa-brain",
+        "description": "ვარ ძააალიან მშრომელი", 
+        "color":"blue"
+      },
+      {
+        "icon": "fa-solid fa-code",
+        "description": "მიყვარს აპლიკაციებზე მუშაობა",
+"color":"blue"
+
+      },
+      {
+        "icon": "fa-regular fa-circle-xmark",
+        "description": "მსიამოვნებს იმ პრობლემების გადაჭრა, რომლებიც ჯიუტდება",
+        "color":"blue"
+      }
+    ],
+
+    "free-time": "როდესაც არ ვწერ კოდს, დიდი ლაბათობით მნახავთ; ",
+    "hobbies": [
+      {
+        "icon": "fa-solid fa-dumbbell",
+        "description": "სავარჯიშო დარბაზში",
+        "color":"blue"
+
+      },
+      {
+        "icon": "fa-solid fa-person-biking",
+        "description": "ველოზე",
+        "color":"blue"
+      },
+      {
+        "icon": "fa-solid fa-person-hiking",
+        "description": "ლაშქრობაში",
+        "color":"blue"
+      },
+      {
+        "icon": "fa-solid fa-book",
+        "description": "წიგნებში",
+        "color":"blue"
+      }
+    ],
+    "goal":{
+      "main-goal":"ამჟამად ჩემი მიზანია მივიღო გამოცდილება,მივიღო ბევრ რეალურ პროექტში მონაწილეობა,შევქმნა", 
+"customer-satisfaction":"მომხმარებელზე ორიენტირებული აპლიკაციები", 
+"pleasure":"და უბრალოდ სწავლისა და მუშაობის პროცესიდან მივიღო სიამოვნება.", 
+"more":"თუ გსურთ უფრო მეტი გაიგოთ ჩემს უნარ-ჩვევებზე, გთხოვთ შეამოწმეთ ჩემი პროექტების გალერეა",
+"here":"აქ 😊"
+    }   
+  },
+  "knowledge":"ტექნოლოგიები,რომლებიც ვიცი",
   "gallery":[
     {
       "id":0,

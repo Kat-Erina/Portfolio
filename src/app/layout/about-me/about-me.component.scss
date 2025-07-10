@@ -29,7 +29,11 @@ padding-bottom: 50px;
   .about-me-txt{
      margin-bottom: 50px;
      p{line-height: 1.3;
-    color: #222831
+   //  color: #222831
+   b{
+      color: rgb(222, 116, 116) !important;
+      // font-size: 200px;
+   }
 }
      .characteristics{
         list-style: none;

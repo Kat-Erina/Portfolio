@@ -1,4 +1,5 @@
-import { Component, ElementRef, ViewChild } from '@angular/core';
+import { Component, ElementRef, inject, ViewChild } from '@angular/core';
+import { LanguageService } from '../../core/services/language.service';
 
 @Component({
   selector: 'app-about-me',
@@ -7,5 +8,6 @@ import { Component, ElementRef, ViewChild } from '@angular/core';
   styleUrl: './about-me.component.scss'
 })
 export class AboutMeComponent {
-
+languageService=inject(LanguageService);
+translations=this.languageService.translations
 }
