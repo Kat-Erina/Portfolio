@@ -13,11 +13,28 @@
     // margin-top: 20px;
     background-color: #f8bb42;
         clip-path: polygon(4% 10%, 100% 0%, 90% 95%, 0% 100%);
-        padding: 60px 30px;
-p{
+        padding: 70px 30px;
+.my-experience-par{
   // font-size: 18px;
- 
+  font-size: 18px;
+
 }
+ .exp-difficulties{
+  margin-top: 10px;
+  line-height: 25px; 
+  font-size: 17px;
+  font-style: italic;
+  // letter-spacing: 1px;
+  padding: 5px 10px;
+  margin-left: 20px;
+  background-color: aquamarine;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  font-family: "ALK Life", sans-serif;
+  transform: rotate(-2deg);
+
+  // height: 50px;
+ }
 ul{
   margin-top: 15px;
   background-color: red;
