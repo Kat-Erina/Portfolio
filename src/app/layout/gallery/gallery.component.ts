@@ -36,7 +36,7 @@ get length(){
 
  currentIndex = signal(0);
 getTransform(index: number): string {
-  const offset = (index - this.currentIndex()) * 100;
+  const offset = (index - this.currentIndex()) * 101;
   return `translateX(${offset}%)`;
 }
 

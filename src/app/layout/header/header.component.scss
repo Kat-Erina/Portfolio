@@ -7,6 +7,7 @@ header{
   padding-bottom: 40px;
   background-color: #f8bb42;
   clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 60%);
+  // color: rgb(53, 53, 56);
 
 section{  
      display: flex;
@@ -22,6 +23,7 @@ section{
     h1{
         font-size: 18px;
  animation: rotate 3s;
+ color: #1b342c;
        
     }}
  
@@ -122,3 +124,10 @@ display: block;
   
 }
 
+@media screen and (min-width:1440px) {
+  header{
+background-color: yellow;
+  }
+  
+  
+}

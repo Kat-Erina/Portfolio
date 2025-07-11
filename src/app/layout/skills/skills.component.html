@@ -1,7 +1,7 @@
 <div style="color: red" class="skills-main-container">
     <h2 (click)="toggleOpen()">{{translations()['knowledge']}}<i class="fa-solid" [ngClass]="isOpen()?'fa-arrow-down':'fa-arrow-up'"></i></h2>
     <div class="skills-container" [ngClass]="isOpen()?'open-div':'closed-div'">
-        <ul>
+        <ul class="skills-list">
             <li>
                 <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style="fill: #E34F26">
                     <title>HTML5</title>
@@ -72,5 +72,16 @@
                 </svg>
             </li>
         </ul>
+        <div class="languages">
+            <p style="font-size: 18px; margin-left: 10px; letter-spacing: 2px;">Languages</p>
+            <ul class="languages-list">
+                @for(language of translations()['languages']; track language){
+                    <li>
+                        <p style="font-size: 12px;">{{language.name}} - <span style="font-size: 14px;">{{language.level}}</span></p>
+                    </li>
+                }
+           
+        </ul>
+        </div>
     </div>
 </div>

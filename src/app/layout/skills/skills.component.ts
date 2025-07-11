@@ -11,7 +11,7 @@ import { LanguageService } from '../../core/services/language.service';
 export class SkillsComponent {
 languageService=inject(LanguageService);
 translations=this.languageService.translations
-  isOpen=signal(true)
+  isOpen=signal(false)
 
   toggleOpen(){
     this.isOpen.set(!this.isOpen())

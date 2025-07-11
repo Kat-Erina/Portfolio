@@ -5,13 +5,13 @@
 <div class="gallery">
 
       <button [ngClass]="{'hidden': currentIndex()===0}" class="arrow left" (click)="prevCard()">&#10094;</button> 
- <article class="cards-wrapper">
+ <div class="cards-wrapper">
   @for(item of translations()['gallery']; track $index){
-     <div class="card" [style.transform]="getTransform($index)">
+     <section class="card" [style.transform]="getTransform($index)">
      <app-card [data]="item"></app-card> 
-  </div>
+     </section>
   }
- </article>
+</div>
 
 <button [ngClass]="{'hidden':currentIndex()===length}" class="arrow right" (click)="nextCard()">&#10095;</button> 
 

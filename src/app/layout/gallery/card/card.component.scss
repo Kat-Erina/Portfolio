@@ -6,16 +6,18 @@
   background-repeat: no-repeat;
   display: flex;
   align-items: center;
+  // background-color: yellow;
 
   .glass-div {
     width: 25%;
     height: 45%;
     border-bottom-right-radius: 5px;
     border-top-right-radius: 5px;
-    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-    backdrop-filter: blur(3.1px);
+    // background-color: yellow;
+    box-shadow: 0 8px 10px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(5.1px);
     -webkit-backdrop-filter: blur(5.1px);
-    border: 1px solid rgba(204, 171, 171, 0.5);
+    // border: 1px solid rgba(204, 171, 171, 0.5);
     padding: 20px 10px;
     display: flex;
     flex-direction: column;

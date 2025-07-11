@@ -13,15 +13,13 @@
     // margin-top: 20px;
     background-color: #f8bb42;
         clip-path: polygon(4% 10%, 100% 0%, 90% 95%, 0% 100%);
-        padding: 50px 30px;
+        padding: 60px 30px;
 p{
-  font-size: 18px;
-  span{
-    font-style: italic;
-    font-weight: bold;
-  }
+  // font-size: 18px;
+ 
 }
 ul{
+  margin-top: 15px;
   background-color: red;
   list-style: none;
   display: flex;
