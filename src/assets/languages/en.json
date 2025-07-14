@@ -9,17 +9,17 @@
       {
         "icon": "fa-solid fa-brain",
         "description": "a curious mind",
-         "color":"blue"
+         "color":"#D9A299"
       },
       {
         "icon": "fa-solid fa-code",
         "description": "a love for clean code",
-         "color":"blue"
+         "color":"#FF9B45"
       },
       {
         "icon": "fa-regular fa-circle-xmark",
         "description": "a mild obsession with solving problems that don’t want to be solved (yet)",
-         "color":"blue"
+         "color":"#B8CFCE"
       }
     ],
 
@@ -28,22 +28,22 @@
       {
         "icon": "fa-solid fa-dumbbell",
         "description": "at the gym",
-        "color":"blue"
+       "color":"#FF9B45"
       },
       {
         "icon": "fa-solid fa-person-biking",
         "description": "riding my bicycle",
-        "color":"blue"
+         "color":"#B8CFCE"
       },
       {
         "icon": "fa-solid fa-person-hiking",
         "description": "hiking up a trail",
-        "color":"blue"
+         "color":"#9EBC8A"
       },
       {
         "icon": "fa-solid fa-book",
         "description": "lost in a book",
-        "color":"blue"
+        "color":"#D9A299"
       }
     ],
       "goal":{

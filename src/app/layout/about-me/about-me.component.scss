@@ -13,12 +13,16 @@ h2{
 
  .about-me {
   width: 100%;
-  background-color:  #619b8a;
+  // background-color:  #619b8a;
+  background-color:rgb(97, 155, 138);
   clip-path: polygon(0% 10%, 100% 0%, 100% 100%, 0% 90%);
 padding-bottom: 50px;
   padding: 40px 8px;
   text-align: right;
   min-height: 700px;
+  p{
+
+  }
    img{
     width: 150px;
     height: 150px;
@@ -85,4 +89,9 @@ padding-bottom: 50px;
  
 
 }
+}
+
+p{
+  // color: #F5F0DC 
+  color: #f1ce9c
 }

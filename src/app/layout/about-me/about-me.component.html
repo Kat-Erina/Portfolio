@@ -1,33 +1,33 @@
 <article>
-    <h2 style="font-size: 22px;">About Me</h2>
-    <div class="about-me">
+    <h2 style="font-size: 24px;">About Me</h2>
+    <div class="about-me" >
         <img src="images/me.png">
         <section class="about-me-txt">
-            <p style="font-size: 18px; margin-bottom: 5px;">{{translations()['about-me']['introduction']['intro']}}<b style="font-size: 20px; color: #590a0a"> {{translations()['about-me']['introduction']['occupation']}}</b></p>
+            <p style="font-size: 18px; margin-bottom: 5px; color: #fae4c7">{{translations()['about-me']['introduction']['intro']}}<b style="font-size: 20px; color: #fae4c7"> {{translations()['about-me']['introduction']['occupation']}}</b></p>
             
             <ul class="characteristics">
                 @for(interest of translations()['about-me']['mind-description'] ; track interest){
-                <li style="font-size: 15px;">
-                    <i style="font-size: 19px; color:#819067" [style.color]="interest.color" [class]="interest.icon"></i> {{interest.description}}
+                <li style="font-size: 15px;; font-style: italic;" [style.color]="interest.color">
+                    <i style="font-size: 14px; color:#819067" [style.color]="interest.color" [class]="interest.icon"></i> {{interest.description}}
                 </li>
                 }
             </ul>
 
-            <p style="font-size: 17px; text-align: center;">
+            <p style="font-size: 17px; text-align: center; color: #fae4c7">
                 {{ translations()['about-me']['free-time']}}
             </p>
             <ul class="hobbies">
                 @for(hobby of translations()['about-me']['hobbies']; track hobby){
-                <li style="font-size: 15px;"><i style="font-size: 19px;" [style.color]="hobby.color" [class]="hobby.icon"></i> {{hobby.description}} </li>
+                <li [style.color]="hobby.color" style="font-size: 15px;"><i style="font-size: 13px;" [style.color]="hobby.color"  [class]="hobby.icon"></i> {{hobby.description}} </li>
                 }
 
             </ul>
-            <p style="font-size: 18px; text-align: center;">
+            <p style="font-size: 18px; text-align: center; color: #fae4c7">
 {{translations()['about-me']['goal']['main-goal']}}
 <span style="font-weight: bold;">{{translations()['about-me']['goal']['customer-satisfaction']}}</span>
 <span style="font-weight: bold;">{{translations()['about-me']['goal']['pleasure']}} </span>
 {{translations()['about-me']['goal']['more'] }}
-<a style="font-size: 18px;" href="#gallery">{{translations()['about-me']['goal']['here']}}.</a>
+<a style="font-size: 18px; color: #D9A299" href="#gallery">{{translations()['about-me']['goal']['here']}}.</a>
             </p>
         </section>
     </div>
